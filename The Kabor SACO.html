@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htttp://www.kaborshinnerssociety.ac.ke</title>
+    <title>Filebox Navbar Tutorial</title>
+    <link rel="stylesheet" href="kabor.css">
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(0, 4, 255);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.primary-icon{
+    height: 0.0025ch;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+    body{
+        background-color: aqua;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        height: 70%;
+        width: 20%;
+        border-radius: 1em;
+        display: flex;
+        box-shadow: -3px -3px 10px #282626,3px 3px 9px whitesmoke;
+        background-image: url(Images/photo3.png);
+        justify-content: center;
+        margin-left: 40%;
+    }
+    form{
+        justify-items: center;
+        margin-left: 4%;
+    }
+    button{
+        top: 20%;
+        bottom: 25%;
+        left: 25%;
+        padding: 5%;
+        box-shadow: -3px -3px 5.5px 3px 12px green;
+        cursor: pointer;
+        background-color: rgb(0, 38, 255);
+        border-radius: 20px;
+        height: 40px;
+        width: 200px;
+        border-color: chartreuse;
+    }
+    input{
+        padding: 5%;
+        margin: 5%;
+        border-radius: 10px;
+        box-shadow: inset-3px -3px 7px #282626,inset 3px 3px 9px white;
+        border-style: none;
+        outline: none;
+        border: none;
+    }
+    h1{
+        border: 1px solid;
+        border-color: darkred;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+    }
+    h2{
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    img{
+        margin-left: 25%;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <div style="height: 0px; width: 0px;">
+          <a href="#" download> <img class="primary icon" src="Images/logo3.jpg" style="height: 63px; width: 100px; float: top; border-radius: 100px;"></a>
+        </div>
+        <ul class="nav-list">
+            <li class="list-item">
+                <a href="Our Service.html"> Our Service</a>
+            </li>
+            <li class="list-item">
+                <a href="About Us.html"> About Us</a>
+            </li>
+            <li class="list-item">
+                <a href="Contact.html">Contacts</a> 
+            </li>
+            <li class="list-item">
+                <a href="Registrationforme.html">Register</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <form action="https://google.com" method="get">
+            <input type="text" name="firstname" placeholder="FIRST NAME" required>
+            <br>
+            <br>
+            <input type="text" name="lastname" placeholder="LAST NAME" required>
+            <br>
+            <br>
+            <input type="text"name="username" placeholder="USERNAME:" required> 
+            <br>
+            <br>  
+            <input type="password"name="password" placeholder="PASSWORD:" required>
+            <br>
+            <br>
+            <button type="login" style="color: cyan;">LOGIN</button>
+            </form>
+</div>
+<br>
+<br>
+    <h1 style="text-align: center;">THE KABOR SHINNERS SOCIETY</h1>
+    <br>
+       <b>
+           <h2> Brings People together and Transform Lives</h2>
+        </b> 
+</body>
+</html>
